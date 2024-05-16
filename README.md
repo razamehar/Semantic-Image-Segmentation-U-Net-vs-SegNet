@@ -18,6 +18,20 @@ The inspiration for this project originated from François Chollet's image segme
 ## Models' Performance
 After 30 epochs, the U-Net-like architecture achieved a training loss of 0.2429 and a validation loss of 0.3614. On the other hand, the SegNet-like architecture had a training loss of 0.4011 and a validation loss of 0.4176.
 
+### Performance Evaluation: U-Net vs. SegNet Across 30 Epochs
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <div>U-Net</div>
+      <img src="docs/U-Net.png" alt="U-Net" style="max-width: 100%;">
+    </td>
+    <td style="text-align: center;">
+      <div>SegNet</div>
+      <img src="docs/SegNet.png" alt="SegNet" style="max-width: 100%;">
+    </td>
+  </tr>
+</table>
+
 ## Potential Improvements
 - Increase the number of images and their corresponding annotations.
 - Deepen the network by adding more layers and narrow it by reducing the number of neurons.
